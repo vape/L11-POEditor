@@ -1,4 +1,4 @@
-# L11-POEditor
+# L11 POEditor
 POEditor localization sync support for L11
 
 ## Usage
