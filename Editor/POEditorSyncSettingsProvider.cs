@@ -21,7 +21,7 @@ namespace L11.Sync.POEditor.Editor
         [SettingsProvider]
         public static SettingsProvider RegisterSettingsProvider()
         {
-            return new POEditorSyncSettingsProvider("L11/POEditor Sync");
+            return new POEditorSyncSettingsProvider("Project/L11/POEditor Sync");
         }
 
         private bool importing;
