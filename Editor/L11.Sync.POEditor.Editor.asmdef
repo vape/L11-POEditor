@@ -1,0 +1,19 @@
+{
+    "name": "L11.Sync.POEditor.Editor",
+    "rootNamespace": "L11.Sync.POEditor.Editor",
+    "references": [
+        "L11",
+        "L11.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

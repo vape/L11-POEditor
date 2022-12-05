@@ -1,0 +1,12 @@
+{
+  "name": "deszz.l11.sync.poeditor",
+  "displayName": "L11 POEditor Sync",
+  "description": "POEditor synchronization support",
+  "version": "1.0.0",
+  "unity": "2020.1",
+  "author": "Artem Sokolov <sokolov.artem@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vape/L11POEditor.git"
+  }
+}
