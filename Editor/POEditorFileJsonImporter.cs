@@ -37,13 +37,15 @@ namespace L11.Sync.POEditor.Editor
                 else
                 {
                     var values = new string[] {
+                        defNode["zero"],
+                        defNode["other"],
                         defNode["one"],
+                        defNode["two"],
                         defNode["few"],
-                        defNode["many"],
-                        defNode["other"] }
+                        defNode["many"] }
                         .Where(s => !string.IsNullOrEmpty(s));
 
-                    term.Value = string.Join("|", values);
+                    term.Value = $"{{0:{string.Join("|", values)}}}";
                 }
 
                 data.Add(key, term);
